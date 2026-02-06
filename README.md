@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">🌊 Kloiya River — Flow Rate Prediction with LSTM</h1>
+  <h1 align="center">Kloiya River — Flow Rate Prediction with LSTM</h1>
   <p align="center">
     <em>Deep learning approach for hydrological time-series forecasting on 58 years of river flow data</em>
   </p>
@@ -14,7 +14,7 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 This project builds an **LSTM (Long Short-Term Memory)** neural network to predict daily river flow rates for the **Kloiya River**, using historical hydrological data spanning from **April 1964 to July 2022** (~20,000+ daily observations). It also includes a statistical analysis suite for flow duration curves, distribution analysis, and hydropower optimization scenarios.
 
@@ -22,9 +22,9 @@ This project builds an **LSTM (Long Short-Term Memory)** neural network to predi
 
 ---
 
-## ✨ Features
+## Features
 
-### 🧠 LSTM Flow Rate Model
+### LSTM Flow Rate Model
 - **Multi-layer LSTM** architecture with 3 stacked layers (64 hidden units)
 - **28-day sliding window** sequences for temporal pattern learning
 - **Min-Max normalization** applied independently to train/validation/test splits
@@ -35,13 +35,13 @@ This project builds an **LSTM (Long Short-Term Memory)** neural network to predi
 - **Evaluation metrics:** MSE, RMSE, MAE, MAPE, and R² Score
 - **GPU-accelerated** training with automatic CUDA detection
 
-### 📊 Statistical Analysis
+### Statistical Analysis
 - Computes **mean, median, standard deviation, variance, coefficient of variation**, and flow range for any date interval
 - Generates **Flow Duration Curves (FDCs)** across multiple historical periods (1982–2022, 1992–2022, 2002–2022, etc.)
 - Produces **flow rate distribution histograms** for custom date ranges
 - Full time-series visualization from 1964–2022
 
-### ⚡ Hydropower Optimization
+### Hydropower Optimization
 - Models **turbine efficiency** as a function of flow rate
 - Compares three optimization scenarios:
   - Baseline (no optimization)
@@ -51,7 +51,7 @@ This project builds an **LSTM (Long Short-Term Memory)** neural network to predi
 
 ---
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 ```
 Input (28-day sequence)
@@ -76,7 +76,7 @@ Input (28-day sequence)
 
 ---
 
-## ⚙️ Hyperparameters
+## Hyperparameters
 
 | Parameter | Value |
 |:---|:---|
@@ -91,7 +91,7 @@ Input (28-day sequence)
 
 ---
 
-## 📈 Data
+## Data
 
 The dataset contains **20,153 daily flow rate observations** (m³/s) for the Kloiya River:
 
@@ -106,7 +106,7 @@ The dataset contains **20,153 daily flow rate observations** (m³/s) for the Klo
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -143,16 +143,16 @@ Outputs a comparison table of power output under different optimization scenario
 
 ---
 
-## 📄 Reports
+## Reports
 
 | Document | Link |
 |:---|:---|
-| 📘 Full Group Report | [View on Google Drive](https://drive.google.com/file/d/16eneVEujviDUxeveyxRqlOzv8Uhy56Jz/view?usp=sharing) |
-| 📗 Solo Work Report | [View on Google Drive](https://drive.google.com/file/d/1SdAOeUYottZNUEnVOe5oAUZP-mff_Ict/view?usp=sharing) |
-| 📐 Architecture Diagram | [Architecture.pdf](https://github.com/user-attachments/files/25060205/Architecture.pdf) |
+| Full Group Report | [View on Google Drive](https://drive.google.com/file/d/16eneVEujviDUxeveyxRqlOzv8Uhy56Jz/view?usp=sharing) |
+| Solo Work Report | [View on Google Drive](https://drive.google.com/file/d/1SdAOeUYottZNUEnVOe5oAUZP-mff_Ict/view?usp=sharing) |
+| Architecture Diagram | [Architecture.pdf](https://github.com/user-attachments/files/25060205/Architecture.pdf) |
 
 ---
 
-## 📜 License
+## License
 
 This project is for academic and research purposes.
